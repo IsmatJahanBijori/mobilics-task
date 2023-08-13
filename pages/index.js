@@ -1,11 +1,30 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main
+    <div>
+      <Head>
+        <link rel="icon" type="image/jfif" sizes="16x16" href="https://i.ibb.co/JKc0dtY/1619225409081.jpg" />
+        <title>
+          Mobilics India Private Limited
+        </title>
+      </Head>
+      <ul>
+        <li>Profile</li>
+        <li>Connection</li>
+        <li>Login</li>
+        <li>Signup</li>
+      </ul>
+    </div>
+  )
+}
+
+
+{/**    <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -113,6 +132,4 @@ export default function Home() {
           </p>
         </a>
       </div>
-    </main>
-  )
-}
+    </main> */}
