@@ -19,7 +19,6 @@ const Dashboard = ({ children }) => {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-
         <ul className="menu p-4 w-80 h-full text-base-content">
           {/* Sidebar content here */}
           <div className=" bg-slate-200 shadow-xl h-screen flex flex-col">
