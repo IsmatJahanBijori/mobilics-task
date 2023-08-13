@@ -1,12 +1,14 @@
+import Image from 'next/image'
 import React from 'react'
+// <a href="https://imgbb.com/"><img src="https://i.ibb.co/hK5gRRf/signup.jpg" alt="signup" border="0"></a>
 
+//https://res.cloudinary.com/ducah1mnz/image/upload/v1691948523/signup_lhmbil.jpg
 const Signup = () => {
     return (
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="text-center lg:text-left">
-                    <h1 className="text-5xl font-bold">Login now!</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <Image src="/v1691948523/signup_lhmbil.jpg" width={350} height={350}></Image>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
@@ -26,7 +28,7 @@ const Signup = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <button className="btn btn-primary">Login</button>
+                            <button className="btn btn-primary">Signup</button>
                         </div>
                     </div>
                 </div>

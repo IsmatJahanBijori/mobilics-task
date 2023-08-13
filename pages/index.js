@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <link rel="icon" type="image/jfif" sizes="16x16" href="https://i.ibb.co/JKc0dtY/1619225409081.jpg" />
+      <Image src="/v1691943255/1619225409081_am8d5c.jpg" width={10} height={10} />
         <title>
           Mobilics India Private Limited
         </title>
