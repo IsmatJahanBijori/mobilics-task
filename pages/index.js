@@ -1,6 +1,7 @@
 // import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -8,20 +9,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <link rel="icon" type="image/jfif" sizes="16x16" href="https://i.ibb.co/JKc0dtY/1619225409081.jpg" />
+      <link rel="icon" type="image/jfif" sizes="16x16" href="https://i.ibb.co/JKc0dtY/1619225409081.jpg" />
         <title>
           Mobilics India Private Limited
         </title>
       </Head>
-      <ul>
-        <li>Profile</li>
-        <li>Connection</li>
-        <li>Login</li>
-        <li>Signup</li>
-      </ul>
+      
     </div>
   )
 }
+
+//<link rel="icon" type="image/jfif" sizes="16x16" href="https://i.ibb.co/JKc0dtY/1619225409081.jpg" />
 
 
 {/**    <main
