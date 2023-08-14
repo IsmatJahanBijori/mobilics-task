@@ -7,3 +7,7 @@
 .profileInfo{
     @apply w-[500px] h-[100px] m-3 p-3 border-2 border-blue-800 rounded-lg flex shadow-lg
 }
+
+.container{
+    @apply bg-[#FFFFFF] w-3/4 mx-auto h-full rounded-md grid grid-cols-1 md:grid-cols-2
+}

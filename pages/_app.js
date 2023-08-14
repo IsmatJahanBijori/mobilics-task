@@ -3,6 +3,7 @@
 import '@/styles/globals.css'
 import Dashboard from './dashboard'
 import Head from 'next/head'
+import AuthProvider from './Provider/AuthProvider'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -13,8 +14,10 @@ export default function App({ Component, pageProps }) {
           Mobilics India Private Limited
         </title>
       </Head>
-      <Dashboard className="w-2/5" />
-      <Component {...pageProps} className="w-3/5" />
+      <AuthProvider>
+        <Dashboard className="w-2/5" />
+        <Component {...pageProps} className="w-3/5" />
+      </AuthProvider>
 
     </div>
   )

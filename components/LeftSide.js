@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from "../styles/profile.module.css" 
+// import { AuthContext } from '@/pages/Provider/AuthProvider'
 const LeftSide = () => {
+    // const {user}=useContext(AuthContext)
     return (
         <div>
             <div className='w-1/2'>
@@ -16,7 +18,7 @@ const LeftSide = () => {
                         <button className='btn '>Edit</button>
                     </div>
                     <div className='flex'>
-                        <input type="text" placeholder="Your Email" className={styles.inputField} />
+                        <input type="text" placeholder="Your Email"  className={styles.inputField} />
                         <button className='btn '>Edit</button>
                     </div>
                     <div className='flex'>

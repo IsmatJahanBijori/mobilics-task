@@ -1,9 +1,9 @@
 import LeftSide from '@/components/LeftSide'
 import ProfileNavbar from '@/components/ProfileNavbar'
 import RightSide from '@/components/RightSide'
-// import Image from 'next/image'
+import styles from "../styles/profile.module.css" 
 import React from 'react'
-// <a href="https://ibb.co/Hp0zBbQ"><img src="https://i.ibb.co/sJhwbNr/profile.webp" alt="profile" border="0"></a>
+
 const Profile = () => {
   return (
     <div className='flex flex-col w-full pr-5'>
@@ -12,17 +12,14 @@ const Profile = () => {
         <p className='text-xl p-5 text-white'>My Profile</p>
       </div>
 
-
       {/* main div */}
-      <div className='bg-[#FFFFFF] w-3/4 mx-auto h-full rounded-md grid grid-cols-1 md:grid-cols-2'>
-
+      <div className={styles.container}>
 
         {/*left side */}
-        <LeftSide/>
-
+        <LeftSide />
 
         {/*right side */}
-        <RightSide/>
+        <RightSide />
       </div>
     </div>
   )

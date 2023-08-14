@@ -1,6 +1,8 @@
-import React from 'react'
-
+import { AuthContext } from '@/pages/Provider/AuthProvider'
+import React, { useContext } from 'react'
+// https://i.ibb.co/sJhwbNr/profile.webp
 const ProfileNavbar = () => {
+    const {user}=useContext(AuthContext)
     return (
         <div className="p-5 w-full h-20 shadow-lg rounded-lg">
             <div className="dropdown flex flex-row">
