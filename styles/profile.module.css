@@ -1,0 +1,9 @@
+.profile{
+    @apply w-[500px] h-[200px] m-3 p-3 border-2 border-blue-900 rounded-lg shadow-lg
+}
+.inputField{
+    @apply input input-bordered input-md mr-3 mb-3 w-full max-w-xs
+}
+.profileInfo{
+    @apply w-[500px] h-[100px] m-3 p-3 border-2 border-blue-800 rounded-lg flex shadow-lg
+}

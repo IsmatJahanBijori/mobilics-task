@@ -8,7 +8,7 @@ const Signup = () => {
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="text-center lg:text-left">
-                    <Image src="/v1691948523/signup_lhmbil.jpg" width={350} height={350}></Image>
+                    <img src="https://i.ibb.co/dQkJ6cD/signup.jpg" className='w-full h-[350px]'/>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">

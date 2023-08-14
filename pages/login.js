@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React from 'react'
 
 const Login = () => {
@@ -6,7 +6,7 @@ const Login = () => {
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="text-center lg:text-left">
-                    <Image src="/v1691948558/login_pcf7qs.jpg" width={350} height={350}/>
+                    <img src="https://i.ibb.co/RCqnCdk/login.jpg" className='w-full h-[350px]'/>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
