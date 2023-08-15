@@ -8,6 +8,10 @@ import { AuthContext } from './Provider/AuthProvider';
 const Dashboard = () => {
   const [navbar, setNavbar] = useState(false);
   const { user } = useContext(AuthContext)
+
+  const handleLogout=()=>{
+    console.log("clicked")
+  }
   return (
 
     <div className="lg:drawer-open">
@@ -52,7 +56,7 @@ const Dashboard = () => {
                   </li>
                   {
                     user ? <li className="text-gray-600 hover:text-blue-600 font-semibold">
-                      <Link href="/">LogOut</Link>
+                      <button onClick={handleLogout()}><Link href="/">LogOut</Link></button>
                     </li>
                       :
                       <React.Fragment>
